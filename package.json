@@ -1,0 +1,28 @@
+{
+  "name": "node-docker-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlyCeballos/node-docker-mongo.git"
+  },
+  "author": "CharlyCeballos",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/CharlyCeballos/node-docker-mongo/issues"
+  },
+  "homepage": "https://github.com/CharlyCeballos/node-docker-mongo#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
